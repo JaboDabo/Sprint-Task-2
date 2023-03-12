@@ -1,0 +1,302 @@
+body{
+	background-color: #dfedf6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+	margin: 4px 700px 0px 0px;
+
+  width: 800px;
+  height: 40px
+
+
+
+}
+
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.search-field {
+  width: 25%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background-color: #12334a;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.title{
+	display: flex;
+	background-color: #2d7eb9;
+	justify-content: space-between;
+
+
+
+}
+.title h2{
+	color: white;
+	margin: 8px 120px 0px 200px;
+
+
+
+}
+.ushdiv{
+	display: flex;
+	margin-top: 30px;
+}
+.links a{
+	display: flex;
+	width: 100px;
+	padding-top: 20px;
+	direction: column;
+	text-decoration: none;
+	color: #00365c;
+	font-size: 15px;
+}
+.links{
+	margin-left: 200px;
+}
+.suret{
+	width: 270px;
+	height: 330px;
+	background-color: whitesmoke;
+	border-radius: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.suret img{
+	width: 250px;
+	height: 250px;
+	margin-bottom: 15px;
+}
+.eky{
+	margin-left: 55px;
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+.suret button{
+	height: 30px;
+	margin-bottom: -5px;
+	background-color: #cbe2f0;
+	border: none;
+	color:#00365c ;
+	border-radius: 6%;
+}
+.adam{
+	margin-top: 20px;
+	background-color: whitesmoke;
+	width: 270px;
+	height: 200px;
+	border-radius: 5%;
+
+}
+.fr13{
+	color:#00365c ;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+.san{
+	color:#b3b3b3;
+}
+.ustngy{
+	display: flex;
+	margin-top: 10px;
+
+}
+.astyngy{
+	display: flex;
+	margin-top: 20px;
+
+}
+.ustngy div img{
+	width: 50%;
+
+	border-radius: 50%;
+}
+.attar{
+	color: #00365c;
+	font-size: 13px;
+}
+.divka{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.astyngy div img{
+	width: 50%;
+	border-radius: 50%;
+}
+.ush{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.bio{
+	background-color: whitesmoke;
+	width: 600px;
+	height: 300px;
+	border-radius: 2%;
+
+}
+.bigname{
+
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.online{
+	margin-left: 370px;
+	color: #b3b3b3;
+}
+.dz{
+	font-size: 18px;
+}
+.lifeis{
+	font-size: 15px;
+}
+hr{
+	margin-left: 20px;
+	height: 1px;
+	margin-right: 10px;
+	background-color: lightgray;
+	border: none;
+
+}
+.biobio{
+	display: flex;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.br{
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	color: grey;
+
+}
+.br span{
+	margin-top: 5px;
+}
+.ek{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	color:#00365c ;
+}
+.ek span{
+	margin-top: 5px;
+
+}
+.biolast{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	justify-content: space-evenly;
+}
+.ko{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.zh{
+	color: grey;
+	font-size: 13px;
+}
+.sandar{
+	color:#00365c ;
+	margin-bottom:10px ;
+}
+.suretter{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 200px;
+	background-color: whitesmoke;
+	border-radius: 2%;
+	margin-top: 20px;
+}
+.mp{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.mp span{
+	color: grey;
+	margin-left: 10px;
+}
+.assuret img{
+	margin-left: 18px;
+	margin-top: 20px;
+	width: 125px;
+	height: 125px;
+
+
+}
+.songy{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 250px;
+	background-color: whitesmoke;
+	margin-top: 20px;
+	border-radius: 3%;
+
+}
+.avatime{
+	display: flex;
+}
+.avatime img{
+
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+
+}
+.avatime div{
+	margin-top: 20px;
+	margin-left: 18px;
+}
+.atym{
+	display: flex;
+	flex-direction: column;
+	color: #00365c;
+}
+.atym span{
+	margin-top: 5px;
+	color: grey;
+	font-size: 13px;
+}
+.loremm{
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
